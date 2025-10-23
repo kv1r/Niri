@@ -332,14 +332,14 @@ binds {
     Mod+SPACE repeat=false { toggle-overview; }
 
     // configurações de foco de janela 
-    Mod+J     { focus-column-left; }
-    Mod+K     { focus-column-right; }
+    Mod+U     { focus-column-left; }
+    Mod+I     { focus-column-right; }
     Mod+P     { focus-window-down; }
     mod+O     { focus-window-up; }
    
     //
-    Mod+Ctrl+J     { move-column-left; }
-    Mod+Ctrl+K     { move-column-right; }
+    Mod+Ctrl+U     { move-column-left; }
+    Mod+Ctrl+I     { move-column-right; }
     Mod+Ctrl+P     { move-window-down; }
     Mod+Ctrl+O     { move-window-up; }
 
@@ -371,10 +371,10 @@ binds {
     // Mod+Shift+Ctrl+Left  { move-workspace-to-monitor-left; }
     // ...
 
-    Mod+U              { focus-workspace-down; }
-    Mod+I              { focus-workspace-up; }
-    Mod+Ctrl+U         { move-column-to-workspace-down; }
-    Mod+Ctrl+I         { move-column-to-workspace-up; }
+    Mod+K              { focus-workspace-down; }
+    Mod+J              { focus-workspace-up; }
+    Mod+Ctrl+K         { move-column-to-workspace-down; }
+    Mod+Ctrl+J         { move-column-to-workspace-up; }
 
     // Alternatively, there are commands to move just a single window:
     // Mod+Ctrl+Page_Down { move-window-to-workspace-down; }
