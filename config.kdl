@@ -253,7 +253,6 @@ layout {
 spawn-at-startup "waybar" 
 spawn-at-startup "swaync"
 spawn-at-startup "waypaper" "--random"
-spawn-at-startup "copyq"
  
 
 // uncommenting this line will make that the apps ommit their client side decorations if possible, uncommenting it makes the apps scient that is being tiled and disablign rounded corners
